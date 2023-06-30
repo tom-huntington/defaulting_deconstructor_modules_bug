@@ -30,9 +30,9 @@ S::S() :
 }
 
 // works
-S::~S() { }
+//S::~S() { }
 // doesn't
-//S::~S() = default;
+S::~S() = default;
 
 void S::do_stuff() {
 	impl->do_stuff();
